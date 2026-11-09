@@ -1,13 +1,167 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Antonios Argyriou</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonios Argyriou</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            margin-top: 35px;
+        }
+
+        a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <main>
-    <h1>Welcome</h1>
-  </main>
+
+    <div class="profile">
+        <img src="antonis-2019.JPG" alt="Antonios Argyriou">
+
+        <div>
+            <h1>Antonios Argyriou</h1>
+
+            <p>
+                <a href="https://anargyr.github.io">Website</a> |
+                <a href="http://www.linkedin.com/in/antoniosargyriou">LinkedIn</a> |
+                <a href="https://twitter.com/AntonisArgyriou">Twitter</a> |
+                <a href="https://arxiv.org/search/?query=%22antonios+argyriou%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=50">arXiv</a> |
+                <a href="https://scholar.google.com/citations?user=rw9IG5oAAAAJ">Google Scholar</a>
+            </p>
+        </div>
+    </div>
+
+    <h2>Recent Publications</h2>
+
+    <ol>
+        <li>
+            A. Zeqaj, P. Tortora, E. Paolini, A.J. Stocker, D.R. Siddle,
+            A. Argyriou, J. De Vicente, R. Abello, M. Mercolino,
+            "HELIOS - Highly rEliable Links durIng sOlar conjunctionS",
+            Wiley Radio Science, 2026.
+            <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025RS008358">[PDF]</a>
+        </li>
+
+        <li>
+            Pengzhen Chen, Yanwei Liu, Xiaoyan Gu, Antonios Argyriou,
+            Wu Liu, Weiping Wang,
+            "Rotation-Invariant Spherical Watermarking via Third-Order SO(3) Representation Coupling",
+            ICML 2026.
+            <a href="https://openreview.net/pdf?id=SBfIuo2Ets">[OpenReview PDF]</a>
+        </li>
+
+        <li>
+            Yanwei Liu, Jianing Li, Enci Liu, Yao Zhu, Antonios Argyriou,
+            "Sparse Adversarial Attack via Robust Attack Points Selection",
+            Pattern Recognition, 2026.
+            <a href="https://www.sciencedirect.com/science/article/pii/S0031320326004565">[Elsevier]</a>
+        </li>
+
+        <li>
+            Zhuoyi Shang, Yanwei Liu, Enci Liu, Antonios Argyriou,
+            Hongcheng Li, Xiaoyan Gu,
+            "Continual Neural Network Retrieval for ever-expanding Model Zoo",
+            IEEE ICASSP, Barcelona, 2026.
+        </li>
+
+        <li>
+            Yanming Zhang, Wenchao Xu, Antonios Argyriou, A-Long Jin,
+            Tianquan Tang, Peifeng Ma, Lijun Jiang, Steven Gao,
+            "A Hybrid Method for Source Direction Finding with Radio Frequency Interference and Gaussian White Noise",
+            IEEE Internet of Things Journal, 2025.
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/jnl_2025_iot.pdf">[PDF Preprint]</a>
+        </li>
+
+        <li>
+            T.T. An, A. Argyriou, A. Puspitasari, S. Cotton, B.M. Lee,
+            "Efficient Automatic Modulation Classification for Next-Generation Wireless Networks",
+            IEEE Transactions on Green Communications and Networking, 2025.
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/jnl_2025_tgcn.pdf">[PDF Preprint]</a> |
+            <a href="https://ieeexplore.ieee.org/document/11016788">[IEEE]</a>
+        </li>
+
+        <li>
+            C. Ntemkas and A. Argyriou,
+            "RFI and Jamming Detection in Antenna Arrays with an LSTM Autoencoder",
+            IEEE Radarconf 2025, Krakow.
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/cnf_2025_radarconf1.pdf">[PDF Preprint]</a> |
+            <a href="https://ieeexplore.ieee.org/document/11205074/">[IEEE]</a>
+        </li>
+
+        <li>
+            M. Loupa, A. Argyriou, Y. Liu,
+            "The micro-Doppler Attack Against AI-based Human Activity Classification from Wireless Signals",
+            IEEE Radarconf 2025, Krakow.
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/cnf_2025_radarconf2.pdf">[PDF Preprint]</a> |
+            <a href="https://ieeexplore.ieee.org/document/11205051">[IEEE]</a>
+        </li>
+
+        <li>
+            Yiming Jiang, Yanwei Liu, Jinxia Liu, Antonios Argyriou,
+            Yifei Chen, Wen Zhang,
+            "Cross-Layer-Optimized Link Selection for Hologram Video Streaming Over Millimeter Wave Networks",
+            WCNC 2025, Milan.
+            <a href="https://arxiv.org/abs/2503.05195">[arXiv]</a> |
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/cnf_2025_wcnc_2_ppt.pdf">[PDF PPT]</a>
+        </li>
+
+        <li>
+            Georgios Chrysanidis, Antonios Argyriou, Le-Nam Tran,
+            Yanming Zhang, Yanwei Liu,
+            "Power-Efficient Deceptive Wireless Beamforming Against Eavesdroppers",
+            WCNC 2025, Milan.
+            <a href="https://arxiv.org/abs/2503.04599">[arXiv]</a> |
+            <a href="https://faculty.e-ce.uth.gr/anargyr/papers/cnf_2025_wcnc_1_ppt.pdf">[PDF PPT]</a>
+        </li>
+    </ol>
+
 </body>
 </html>
